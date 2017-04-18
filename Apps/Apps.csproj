@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D69615B-7651-4CDD-8A4C-41219CD6A42A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Apps</RootNamespace>
+    <AssemblyName>Apps</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Apps.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Controllers">
+      <HintPath>..\Controllers\bin\Debug\Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="Models">
+      <HintPath>..\Models\bin\Debug\Models.dll</HintPath>
+    </Reference>
+    <Reference Include="MyMessageBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Controllers\bin\Debug\MyMessageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjouterDemande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterDemande.Designer.cs">
+      <DependentUpon>AjouterDemande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnnulerDemande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnnulerDemande.Designer.cs">
+      <DependentUpon>AnnulerDemande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentification.Designer.cs">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardPersonnel.Designer.cs">
+      <DependentUpon>DashboardPersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardResponsable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardResponsable.Designer.cs">
+      <DependentUpon>DashboardResponsable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demandes.Designer.cs">
+      <DependentUpon>Demandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historique.Designer.cs">
+      <DependentUpon>Historique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NouveauPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NouveauPersonnel.Designer.cs">
+      <DependentUpon>NouveauPersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NouveauType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NouveauType.Designer.cs">
+      <DependentUpon>NouveauType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reponse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reponse.Designer.cs">
+      <DependentUpon>Reponse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupprimerPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupprimerPersonnel.Designer.cs">
+      <DependentUpon>SupprimerPersonnel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AjouterDemande.resx">
+      <DependentUpon>AjouterDemande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnnulerDemande.resx">
+      <DependentUpon>AnnulerDemande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authentification.resx">
+      <DependentUpon>Authentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardPersonnel.resx">
+      <DependentUpon>DashboardPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardResponsable.resx">
+      <DependentUpon>DashboardResponsable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demandes.resx">
+      <DependentUpon>Demandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historique.resx">
+      <DependentUpon>Historique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NouveauPersonnel.resx">
+      <DependentUpon>NouveauPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NouveauType.resx">
+      <DependentUpon>NouveauType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reponse.resx">
+      <DependentUpon>Reponse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupprimerPersonnel.resx">
+      <DependentUpon>SupprimerPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

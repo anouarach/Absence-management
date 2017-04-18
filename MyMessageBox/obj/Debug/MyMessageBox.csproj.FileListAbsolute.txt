@@ -1,0 +1,41 @@
+C:\Users\Public\Documents\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+C:\Users\Public\Documents\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.Cache
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+\\FUJITSU-PC\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\Documents\Apps\MyMessageBox\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.Cache
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+C:\Users\FUJITSU\Desktop\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
+D:\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+D:\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+D:\Apps\MyMessageBox\obj\Debug\ResolveAssemblyReference.cache
+D:\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+D:\Apps\MyMessageBox\obj\Debug\GenerateResource.read.1.tlog
+D:\Apps\MyMessageBox\obj\Debug\GenerateResource.write.1.tlog
+D:\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+D:\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
+C:\Users\Public\Documents\Nouveau dossier\Apps\MyMessageBox\obj\Debug\MyMessageBox.csprojResolveAssemblyReference.cache
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\bin\Debug\MyMessageBox.dll
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\bin\Debug\MyMessageBox.pdb
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\obj\Debug\MyMessageBox.MyMessageBox.resources
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.Cache
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\obj\Debug\MyMessageBox.dll
+D:\Projects\Gestion de congés\Nouveau dossier\Application\Apps\MyMessageBox\obj\Debug\MyMessageBox.pdb
